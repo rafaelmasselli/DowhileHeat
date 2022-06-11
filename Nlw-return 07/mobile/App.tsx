@@ -6,6 +6,11 @@ import {
 } from '@expo-google-fonts/roboto'
 import { StatusBar } from 'expo-status-bar'
 import AppLoading from 'expo-app-loading'
+import { AuthProvider } from './src/hooks/Auth'
+
+import { LogBox } from "react-native";
+
+LogBox.ignoreLogs(["EventEmitter.removeListener"]);
 
 import { Home } from './src/screens/home'
 
@@ -17,9 +22,9 @@ export default function App() {
   }
 
   return (
-    <>
-      <StatusBar style="light" />
+    <AuthProvider>
+      <StatusBar style="light" translucent backgroundColor="transparent" />
       <Home />
-    </>
+    </AuthProvider>
   )
 }

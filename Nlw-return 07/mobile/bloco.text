@@ -1,0 +1,5 @@
+
+const CLIENT_ID = 'fec5f720d202fa9f9f10'
+const SCOPE = 'read:user'
+const USER_STORAGE = '@NlwHeat:user'
+const TOKEN_STORAGE = '@NlwHeat:token'
