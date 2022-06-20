@@ -46,8 +46,11 @@ $ yarn
 $ yarn dev
 
 # Criando o banco sqlite
-$ yarn prisma migration:run 
+$ yarn prisma migration:run
+
+# O server ira rodar na porta http://localhost:3333
 ```
+
 
 ### Rotas do server
 
@@ -70,7 +73,10 @@ $ expo start
 ```bash
 # Iniciando o projeto
 $ yarn dev
+
+# O web ira rodar na porta http://localhost:3000
 ```
+
 
 ![gif do projeto no front-end web](/.github/ExempleWeb.gif)
 
