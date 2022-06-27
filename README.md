@@ -8,17 +8,17 @@
 
 ## Projeto feito
 
-- [x] React native TS (Mobile)
-- [x] React TS (Web)
-- [x] Node TS (Back-end)
+- React native TS (Mobile)
+- React TS (Web)
+-  Node TS (Back-end)
 
 ## 📝 Requisitos para inciar o projeto
 
-- [ ] <a href="https://git-scm.com">Git</a>
-- [ ] <a href="https://code.visualstudio.com">Vscode</a>
-- [ ] <a href="https://expo.dev">Expo</a>
-- [ ] <a href="https://pt-br.reactjs.org/docs/getting-started.html">React </a>
-- [ ] <a href="https://yarnpkg.com/cli/install">Yarn</a>
+- <a href="https://git-scm.com">Git</a>
+- <a href="https://code.visualstudio.com">Vscode</a>
+- <a href="https://expo.dev">Expo</a>
+- <a href="https://pt-br.reactjs.org/docs/getting-started.html">React </a>
+- <a href="https://yarnpkg.com/cli/install">Yarn</a>
 
 ## 🎲 Iniciando o projeto
 
@@ -54,10 +54,10 @@ $ yarn prisma migration:run
 
 ### Rotas do server
 
-- [ ] POST | http://localhost:3333/authenticate
-- [ ] POST | http://localhost:3333/messages
-- [ ] GET | http://localhost:3333/messages/last3
-- [ ] GET | http://localhost:3333/profle
+-  POST | http://localhost:3333/authenticate
+-  POST | http://localhost:3333/messages
+-  GET | http://localhost:3333/messages/last3
+-  GET | http://localhost:3333/profle
 
 ## Projeto no mobile
 
